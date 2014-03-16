@@ -1,6 +1,6 @@
 ## _ProfileMaker_
 
-A utility to create profiles of Netflix videos that can be used in _dashem_.
+A utility to create profiles of Netflix videos that can be used in [_dashem_](https://github.com/andrewreed/dashem).
 
 _ProfileMaker_ uses a video's manifest to obtain the URLs for each bitrate encoding, but only 
 downloads the header of the 3000 Kbps encoding's .ismv. This header is then used to 
