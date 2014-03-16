@@ -1,0 +1,5 @@
+#!/bin/bash
+sed -n '1p' $1.txt | tr ',' '\n' > $1_2.txt
+sed -n '2p' $1.txt | tr ',' '\n' > $1_4.txt
+sed -n '3p' $1.txt | tr ',' '\n' > $1_8.txt
+sed -n '4p' $1.txt | tr ',' '\n' > $1_16.txt
