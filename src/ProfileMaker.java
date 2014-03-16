@@ -26,7 +26,9 @@ public class ProfileMaker {
 
 		for (int i = 0; i < segmentSizes.length; i++) {
 			System.out.print(segmentSizes[i]);
-			System.out.print(",");
+			if (i < (segmentSizes.length - 1)) {
+				System.out.print(",");
+			}
 		}
 
 		System.out.print("\n");
@@ -35,7 +37,9 @@ public class ProfileMaker {
 
 		for (int i = 0; i < segmentSizes.length; i++) {
 			System.out.print(segmentSizes[i]);
-			System.out.print(",");
+			if (i < (segmentSizes.length - 1)) {
+				System.out.print(",");
+			}
 		}
 
 		System.out.print("\n");
@@ -44,7 +48,9 @@ public class ProfileMaker {
 
 		for (int i = 0; i < segmentSizes.length; i++) {
 			System.out.print(segmentSizes[i]);
-			System.out.print(",");
+			if (i < (segmentSizes.length - 1)) {
+				System.out.print(",");
+			}
 		}
 
 		System.out.print("\n");
@@ -53,7 +59,9 @@ public class ProfileMaker {
 
 		for (int i = 0; i < segmentSizes.length; i++) {
 			System.out.print(segmentSizes[i]);
-			System.out.print(",");
+			if (i < (segmentSizes.length - 1)) {
+				System.out.print(",");
+			}
 		}
 
 		sc.close();
