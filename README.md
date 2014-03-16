@@ -16,7 +16,7 @@ sizes if Netflix were to use 2, 8, and 16 second segments.
 5. Play a Netflix video.
 6. Inside Firebug, right click the line that says __POST authorization__. Select _Copy Response Body_.
 7. Paste the response body into the XML file. Save and close the file.
-8. Run ProfileMaker (for this example, assume that the video is _The Hunger Games_:
+8. Run ProfileMaker (for this example, assume that the video is _The Hunger Games_):
 
 		java -jar ProfileMaker.jar > hungergames.txt
 
