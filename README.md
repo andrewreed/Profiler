@@ -21,12 +21,9 @@ sizes if Netflix were to use 2, 8, and 16 second segments.
 		java -jar ProfileMaker.jar > hungergames.txt
 
 9. Type the filename of the XML file and hit enter.
-10. Now, use the following commands to extract the profiles for the various segment durations:
+10. Now, use the following command to extract the profiles for the various segment durations:
 
-		sed -n '1p' hungergames.txt | tr ',' '\n' > hungergames_2.txt
-		sed -n '2p' hungergames.txt | tr ',' '\n' > hungergames_4.txt
-		sed -n '3p' hungergames.txt | tr ',' '\n' > hungergames_8.txt
-		sed -n '4p' hungergames.txt | tr ',' '\n' > hungergames_16.txt
+		./extract hungergames
 
 11. Cut and paste the four profiles into their respective destinations (e.g. /var/www/dashemulatordata/netflix_2sec/videos/).
 12. Rename the files to remove the trailing "_#".
